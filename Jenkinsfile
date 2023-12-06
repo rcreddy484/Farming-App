@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                     // Clean and build the Android project
-                    sh "./gradlew clean assembleDebug"
+                    bat "./gradlew clean assembleDebug"
                 }
             }
         }
